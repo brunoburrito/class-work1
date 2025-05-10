@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <style>
-    #grad1 {
-        height:400px;
-        background-color: red; /* For browsers that dont support gradients */
-        background-image: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet);
-    }
-    </style>
+        <style>
+            div {
+                background-color: purple;
+                padding: 10px;
+            }
+
+            div.first {
+                opacity: 0.1;
+            }
+            div.second {
+                opacity: 0.3;
+            }
+            div.third {
+                opacity: 0.6;
+            }
+        </style>
     </head>
     <body>
-        <div id="grad1" style="text-align:center;margin;auto;color:#888888;font-size: 40px; font-weight: bold;">This is you Bambak
-        </div>
+        <h1> the opacity property</h1>
+        <p> this is how the property looks:</p>
+        <div class="first"><p>opacity 0.1</p></div>
+        <div class="second"><p>opacity 0.3</p></div>
+        <div class="third"><p>opacity 0.6</p></div>
+        <div><p>opacity 1 (default)</p></div>
+        
     </body>
-
 </html>
