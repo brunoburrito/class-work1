@@ -1,74 +1,20 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <style>
-            div { 
-                right: 30px;
-                border: 3px solid #73ad21
-            }
-            div.absolute {
-                position: absolute;
-                left: 50px;
-                border: 3px solid blue;
-            }
-            div.relative {
-                position: relative;
-                left: 100px;
-                border: 3px solid #73AD21;
-            }
-            div.fixed {
-                position: fixed;
-                top: 0;
-                right: 20px;
-                width: 300px;
-                border: 3px solid #73ad21;
-            }
-            div.sticky {
-                position: sticky;
-                top: 1px;
-                left: 20px;
-                width: 100px;
-                border: 3px solid #73ad21;
-            }
-        </style>
+        <title>functions in javascript</title>
     </head>
+
     <body>
-        <!-- change the position to show the difference
-         static
-         relative
-         fixed
-         absolutely
-         sticky-->
-         <h2>POSITIONING</h2>
-         <div>
-            div with to position property
-         </div>
-        <div class="sticky">
-            div with sticky position property
-        </div>
-        <div class="relative">
-            this div element has position: relative;
-            <div class="absolute">
-                Absolute class div
-            </div>
-        </div>
-        <div class="fixed">
-            div with fixed position property
-        </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>functions</p>
+        <button onclick="myfunc(8)">Excute
+        </button>
+        <script>
+            function myfunc(x,y){
+                if(y==undefined)
+            {
+                y=3;
+            }
+                document.write(x*y);
+            }
+        </script>
     </body>
 </html>
